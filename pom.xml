@@ -64,7 +64,7 @@
                     <encoding>UTF8</encoding>
                 </configuration>
             </plugin>
-            <plugin>
+            <!-- <plugin>
                 <artifactId>maven-antrun-plugin</artifactId>
                 <version>1.7</version>
                 <executions>
@@ -102,7 +102,7 @@
                     <forkMode>once</forkMode>
                     <argLine>-Djava.library.path=${project.basedir}/target/native</argLine>
                 </configuration>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <artifactId>maven-jar-plugin</artifactId>
                 <executions>
