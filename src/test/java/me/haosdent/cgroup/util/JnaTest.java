@@ -23,4 +23,5 @@ public class JnaTest {
 
         void printf(String format, Object... args);
     }
+    
 }
